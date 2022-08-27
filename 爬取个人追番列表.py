@@ -127,7 +127,8 @@ def main():
             else:
                 next_page.click()
     print('爬取完毕，写入文件成功!')
-
+    driver.quit()
+    
 
 if __name__ == "__main__":
     driver = make_driver()
